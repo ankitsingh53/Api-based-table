@@ -4,19 +4,6 @@ async function fetchData() {
     
     console.log(data);
 
-
-    //  let row ='';
-    // data.forEach((element) => {
-    //     console.log(element);
-    //     row +=  `<tr>
-    //     <td>${element.id}</td>
-    //     <td>${element.name}</td>
-    //     <td>${element.username}</td>
-    //     </tr>
-    //     `
-    //     document.getElementById("table-body").innerHTML = row
-    // });
-
     data.forEach((element) => {
         
         // console.log(element);
