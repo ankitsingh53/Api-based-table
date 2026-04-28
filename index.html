@@ -6,16 +6,15 @@
     <title>API Based Table</title>
     <script defer src="./index.js"></script>
 </head>
-<body>
+<body onload="fetchData()">
     <div class="container">
-            <table class="myTable">
-                <tr>
+            <table>
+                <thead>
                     <th>Id</th>
                     <th>Name</th>
                     <th>Username</th>
-                    <th>Address</th>
-                </tr>
-                <tbody class="body">
+                </thead>
+                <tbody id="table-body">
 
                 </tbody>
             </table>
